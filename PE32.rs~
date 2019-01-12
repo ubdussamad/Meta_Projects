@@ -1,4 +1,0 @@
-
-fn main () {
-    println!("Project Eular 32 Solution Routine.");
-}
