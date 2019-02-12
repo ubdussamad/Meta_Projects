@@ -1,0 +1,9 @@
+Package: details
+Version: 1.02
+Architecture: amd64
+Maintainer: <ubdussamad@gmail.com>
+Installed-Size: 7
+Section: games
+Priority: extra
+Description: The Sound Details
+ Displays sound card and Alsa Properties.

@@ -1,0 +1,9 @@
+Source: details
+Maintainer: <ubdussamad@gmail.com>
+Section: games
+Priority: extra
+
+Package: details
+Architecture: linux-any
+Description: The Sound Details
+ Displays sound card and Alsa Properties.

@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Wed, 23 Jan 2019 14:18:16 +0530
+Source: details
+Binary: details
+Architecture: amd64
+Version: 1.02
+Distribution: UNSTABLE
+Urgency: medium
+Maintainer: <ubdussamad@gmail.com>
+Changed-By: samad <samad@samad-Latitude-E6400>
+Description:
+ details    - The Sound Details
+Changes:
+ details (1.02) UNSTABLE; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1:
+ cbc0afb18b85736a7424484857145cd78c711015 964 details_1.02_amd64.deb
+Checksums-Sha256:
+ 79a76616a8a24d25d40e32bf60bf88455bab9b1531fc8fd785e9e833fc31c722 964 details_1.02_amd64.deb
+Files:
+ c1f9c530d0255ffd1becdba99faee856 964 games extra details_1.02_amd64.deb
