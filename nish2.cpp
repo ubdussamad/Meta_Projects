@@ -12,7 +12,10 @@ int maxIndexDiff( int* arr, const int n) {
     
     return (1);
 }
-
+struct x {
+  int x;
+  gint t;
+}
 
 
 int main () {
