@@ -1,0 +1,17 @@
+#include <cstdlib>
+char * str1 {
+  char* x = "Hi hellow";
+  return (x) ;
+}
+char * str2 {
+  char* x = new char[3];
+  x = "hi";
+  return (x) ;
+}
+
+int main () {
+  printf("Str1: %s",str1);
+  printf("Str2: %s",str2);
+  return (0);
+}
+
