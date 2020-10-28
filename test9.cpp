@@ -16,8 +16,15 @@ int main(void) {
 
 
     std::cout << std::is_copy_constructible<spVec>::value << std::endl;
-    std::cout << std::is_copy_constructible<spVec>::value << std::endl;
-    std::cout << std::is_copy_constructible<spVec>::value << std::endl;
+    std::cout << std::is_copy_constructible<unqVec>::value << std::endl;
+    std::cout << std::is_copy_constructible<rawVec>::value << std::endl;
+
+    spVec x = {
+        std::make_unique<int>(),
+        std::make_unique<int>()
+    };
+
+    auto y = x;
 
 
     // something x = { std::make_shared<int>() , std::make_shared<int>() };
@@ -30,7 +37,7 @@ int main(void) {
 
     // auto tmp = x_cpy[0];
 
-    // int k = 0;
+    int k = 0;
 
     return(0);
 }
