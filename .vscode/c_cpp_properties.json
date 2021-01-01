@@ -3,7 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-5.8.0-31/include/**",
+                "/usr/include/c++/10"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

@@ -88,8 +88,6 @@ void print_l ( int begin, int end , short * arr ) {
     return;
 }
 
-
-
 void print_digits(long int x) {
     long int div = 100000000;
     while ( div != 0) {

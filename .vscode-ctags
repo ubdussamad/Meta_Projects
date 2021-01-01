@@ -1,0 +1,207 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+%	sond/debian/rules	/^%:$/;"	t
+ALSA_PCM_NEW_HW_PARAMS_API	sond/src/play_raw.c	/^#define ALSA_PCM_NEW_HW_PARAMS_API$/;"	d	file:
+ALSA_PCM_NEW_HW_PARAMS_API	sond/src/sond.c	/^#define ALSA_PCM_NEW_HW_PARAMS_API$/;"	d	file:
+Animal	Old/new.cpp	/^Animal::Animal() {$/;"	f	class:Animal
+Animal	Old/new.cpp	/^Animal::Animal(int height, int weight , string name) {$/;"	f	class:Animal
+Animal	Old/new.cpp	/^class Animal {$/;"	c	file:
+CC	makefile	/^CC=gcc$/;"	m
+CLEAR_COLOR_	logX.hpp	/^#define CLEAR_COLOR_ /;"	d
+COUNT	page_size.c	/^#define COUNT /;"	d	file:
+CPPFLAGS	makefile	/^CPPFLAGS= -std=c++17$/;"	m
+CXX	makefile	/^CXX=g++$/;"	m
+DEBUG	logX.hpp	/^#define DEBUG /;"	d
+DIV	page_size.c	/^#define DIV /;"	d	file:
+EACH	pe32_joseph.c	/^#define EACH(/;"	d	file:
+ENABLE_C_USAGE_	test12.c	/^#define ENABLE_C_USAGE_ /;"	d	file:
+ENABLE_ERROR	logX.hpp	/^#define ENABLE_ERROR /;"	d
+ENABLE_INFO	logX.hpp	/^#define ENABLE_INFO /;"	d
+ENABLE_SPECIAL	logX.hpp	/^#define ENABLE_SPECIAL /;"	d
+ENABLE_WARNING	logX.hpp	/^#define ENABLE_WARNING /;"	d
+ERROR_COLOR_RED_BEGIN_	logX.hpp	/^#define ERROR_COLOR_RED_BEGIN_ /;"	d
+INFO_COLOR_GREEN_BEGIN_	logX.hpp	/^#define INFO_COLOR_GREEN_BEGIN_ /;"	d
+Int	test13.cpp	/^using Int = int;$/;"	t	typeref:typename:int	file:
+IsPandigital	pe41.cpp	/^bool IsPandigital(int n) {$/;"	f	typeref:typename:bool
+LEN	pe40.cpp	/^#define LEN /;"	d	file:
+LOG	nis5.cpp	/^#define LOG /;"	d	file:
+LOG	nish2.cpp	/^#define LOG /;"	d	file:
+LOG	tst/nis4.cpp	/^#define LOG /;"	d	file:
+LogFile	test11.cpp	/^        LogFile () {$/;"	f	class:LogFile	file:
+LogFile	test11.cpp	/^class LogFile {$/;"	c	file:
+NUM_LOOPS	test12.c	/^#define NUM_LOOPS /;"	d	file:
+Paccount	dat.cpp	/^Paccount::Paccount (std::string f_name , std::string l_name, int a_num  ) :$/;"	f	class:Paccount
+Paccount	dat.cpp	/^class Paccount {$/;"	c	file:
+Person	nis5.cpp	/^    struct Person$/;"	s	function:main	file:
+REP	pe32_joseph.c	/^#define REP(/;"	d	file:
+REPEAT	pe32_joseph.c	/^#define REPEAT(/;"	d	file:
+SHELL_BASH	logX.hpp	/^#define SHELL_BASH /;"	d
+SPECIAL_COLOR_BLUE_BEGIN_	logX.hpp	/^#define SPECIAL_COLOR_BLUE_BEGIN_ /;"	d
+SRCS	makefile	/^SRCS= test2.cpp$/;"	m
+TARGET	makefile	/^TARGET= lex$/;"	m
+WARN_COLOR_YELLOW_BEGIN_	logX.hpp	/^#define WARN_COLOR_YELLOW_BEGIN_ /;"	d
+X	nis5.cpp	/^#define X /;"	d	file:
+X	nish2.cpp	/^#define X /;"	d	file:
+X	tst/nis4.cpp	/^#define X /;"	d	file:
+X_ERROR	logX.hpp	/^#define X_ERROR(/;"	d
+X_INFO	logX.hpp	/^#define X_INFO(/;"	d
+X_PRINTF	logX.hpp	/^#define X_PRINTF(/;"	d
+X_SPECIAL_LOG	logX.hpp	/^#define X_SPECIAL_LOG(/;"	d
+X_WARN	logX.hpp	/^#define X_WARN(/;"	d
+_mu	test11.cpp	/^    std::mutex  _mu;$/;"	m	class:LogFile	typeref:typename:std::mutex	file:
+abs	Old/non_crossing_cords_mod.cpp	/^int abs(int num){return(num<0 ? -num:num);}$/;"	f	typeref:typename:int
+ac	dat.cpp	/^        int ac ( ) const {$/;"	f	class:Paccount	typeref:typename:int	file:
+account_num	dat.cpp	/^        int account_num;$/;"	m	class:Paccount	typeref:typename:int	file:
+age	nis5.cpp	/^    int age;$/;"	m	struct:main::Person	typeref:typename:int	file:
+all	makefile	/^all: tool$/;"	t
+all	sond/Makefile	/^all: details$/;"	t
+arr	nis.cpp	/^int arr[1000000];$/;"	v	typeref:typename:int[1000000]
+buffer	pe32.cpp	/^long int buffer[10];$/;"	v	typeref:typename:long int[10]
+check_pan	pe41.cpp	/^bool check_pan(long long number) {$/;"	f	typeref:typename:bool
+check_pan_digital	pe32.cpp	/^int check_pan_digital (long int num1, long int num2, long int num3)$/;"	f	typeref:typename:int
+chk_digit	pe32.cpp	/^int chk_digit (long int num, int target)$/;"	f	typeref:typename:int
+chk_ext	pe32.cpp	/^int chk_ext (long int num)$/;"	f	typeref:typename:int
+ci	pe32.cpp	/^long int ci = 0;$/;"	v	typeref:typename:long int
+clean	makefile	/^clean:$/;"	t
+clean	sond/Makefile	/^clean:$/;"	t
+colDim	tst/matrix_.h	/^  uint colDim;$/;"	m	class:matrix_	typeref:typename:uint
+countDigit	pe41.cpp	/^int countDigit(long long n)$/;"	f	typeref:typename:int
+counting_function1	test12.c	/^void *counting_function1 ( void *arg ) {$/;"	f	typeref:typename:void *
+counting_function2	test12.c	/^void *counting_function2 ( void *arg ) {$/;"	f	typeref:typename:void *
+denum	pe33.cpp	/^  int denum;$/;"	m	struct:return_node_t	typeref:typename:int	file:
+det	tst/nis4.cpp	/^T det ( short dim , matrix_<T> arr) {$/;"	f	typeref:typename:T
+details	sond/Makefile	/^details: src\/details.c$/;"	t
+discreet_non_common_terms	pe33.cpp	/^ return_node_t discreet_non_common_terms ( int x , int y ) {$/;"	f	typeref:typename:return_node_t
+entity	test2.cpp	/^class entity {$/;"	c	file:
+f	test13.cpp	/^void f() {$/;"	f	typeref:typename:void
+fame	test2.cpp	/^  char *  fame;$/;"	m	class:entity	typeref:typename:char *	file:
+findMin	nis7.cpp	/^int findMin(int n, int k, string &str) {$/;"	f	typeref:typename:int
+findMin	nis7_mine.cpp	/^int findMin(int length, int subsitution_count, std::string &str) {$/;"	f	typeref:typename:int
+find_common	pe33.cpp	/^int find_common (  int x , int y ) {$/;"	f	typeref:typename:int
+find_coords	Old/non_crossing_cords_mod.cpp	/^int find_coords( vector <int> *array ) {$/;"	f	typeref:typename:int
+first_name	dat.cpp	/^        std::string first_name;$/;"	m	class:Paccount	typeref:typename:std::string	file:
+foo	Old/fnptr.cpp	/^void foo () {$/;"	f	typeref:typename:void
+func_ptr_t	Old/fnptr.cpp	/^typedef void (*func_ptr_t) ();$/;"	t	typeref:typename:void (*)()	file:
+function_1	test11.cpp	/^void function_1 ( LogFile& log ) {$/;"	f	typeref:typename:void
+function_2	test11.cpp	/^void function_2 ( LogFile& log ) {$/;"	f	typeref:typename:void
+g	bound_minimization.cpp	/^double g (  double  x ) {$/;"	f	typeref:typename:double
+game	test2.cpp	/^  char *  game;$/;"	m	class:entity	typeref:typename:char *	file:
+get_area	rt1.cpp	/^      long int get_area( void ) {$/;"	f	class:shape	typeref:typename:long int	file:
+get_name	test2.cpp	/^  char * get_name () {$/;"	f	class:entity	typeref:typename:char *	file:
+geth	Old/new.cpp	/^  int geth(){ return(height);}$/;"	f	class:Animal	typeref:typename:int	file:
+getname	Old/new.cpp	/^  string getname() { return(name);}$/;"	f	class:Animal	typeref:typename:string	file:
+getnum	Old/new.cpp	/^  static int getnum () { return herd_size;}$/;"	f	class:Animal	typeref:typename:int	file:
+getwt	Old/new.cpp	/^  int getwt() { return(weight );}$/;"	f	class:Animal	typeref:typename:int	file:
+height	Old/new.cpp	/^  int height;$/;"	m	class:Animal	typeref:typename:int	file:
+height	rt1.cpp	/^      int width, height, radius;$/;"	m	class:shape	typeref:typename:int	file:
+helloworld_cleanup	.vscode/linux/x_mod.c	/^static void __exit helloworld_cleanup ( void ) {$/;"	f	typeref:typename:void __exit	file:
+helloworld_init	.vscode/linux/x_mod.c	/^static int __init helloworld_init ( void ) {$/;"	f	typeref:typename:int __init	file:
+herd_size	Old/new.cpp	/^  static int herd_size;$/;"	m	class:Animal	typeref:typename:int	file:
+herd_size	Old/new.cpp	/^int Animal::herd_size = 0;$/;"	m	class:Animal	typeref:typename:int
+internal_secret	multiTh.cpp	/^        int internal_secret; $/;"	m	class:pubShub	typeref:typename:int	file:
+isPrime	pe41.cpp	/^bool isPrime(int n) {$/;"	f	typeref:typename:bool
+itr	multiTh.cpp	/^       int itr;$/;"	m	class:pubShub	typeref:typename:int	file:
+last_name	dat.cpp	/^        std::string last_name;$/;"	m	class:Paccount	typeref:typename:std::string	file:
+m	tst/matrix_.h	/^  T*        m;$/;"	m	class:matrix_	typeref:typename:T *
+main	Old/Maman_ptr_test.c	/^int main(){$/;"	f	typeref:typename:int
+main	Old/fnptr.cpp	/^int main (  void )  {$/;"	f	typeref:typename:int
+main	Old/new.cpp	/^int main ( )  {$/;"	f	typeref:typename:int
+main	Old/non_crossing_cords_mod.cpp	/^int main ( void ) {$/;"	f	typeref:typename:int
+main	Old/test.c	/^int main ( ) {$/;"	f	typeref:typename:int
+main	PR_PY/dhananjay.c	/^void main() {$/;"	f	typeref:typename:void
+main	bound_minimization.cpp	/^int main (  void ) {$/;"	f	typeref:typename:int
+main	dat.cpp	/^int main (  void )  {$/;"	f	typeref:typename:int
+main	mamn.c	/^int main( void ) {$/;"	f	typeref:typename:int
+main	multiTh.cpp	/^int main () {$/;"	f	typeref:typename:int
+main	nis5.cpp	/^int main()$/;"	f	typeref:typename:int
+main	nis7.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	nis7_mine.cpp	/^int main (void) {$/;"	f	typeref:typename:int
+main	nish2.cpp	/^int main () {$/;"	f	typeref:struct:x int
+main	page_size.c	/^int main(void){$/;"	f	typeref:typename:int
+main	pe32.cpp	/^int main ()$/;"	f	typeref:typename:int
+main	pe32_joseph.c	/^int main()$/;"	f	typeref:typename:int
+main	pe33.cpp	/^int main( void ) {$/;"	f	typeref:typename:int
+main	pe40.cpp	/^int main () {$/;"	f	typeref:typename:int
+main	pe41.cpp	/^int main ( )  {$/;"	f	typeref:typename:int
+main	rt1.cpp	/^int main ( void )  {$/;"	f	typeref:typename:int
+main	sond/src/details.c	/^int main() {$/;"	f	typeref:typename:int
+main	sond/src/play_raw.c	/^int main() {$/;"	f	typeref:typename:int
+main	sond/src/sond.c	/^int main() {$/;"	f	typeref:typename:int
+main	test10.cpp	/^int main ( )  {$/;"	f	typeref:typename:int
+main	test11.cpp	/^int main ( )   {$/;"	f	typeref:typename:int
+main	test12.c	/^int main ( void )  {$/;"	f	typeref:typename:int
+main	test13.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	test13.cpp	/^int main () {$/;"	f	typeref:typename:int
+main	test14.c	/^int main ( void )  {$/;"	f	typeref:typename:int
+main	test2.cpp	/^int main ( )  {$/;"	f	typeref:typename:int
+main	test8.cpp	/^int main () {$/;"	f	typeref:typename:int
+main	test9.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	tst/nis4.cpp	/^int main (  void )  {$/;"	f	typeref:typename:int
+matrix_	tst/matrix_.cpp	/^matrix_<T>::matrix_ (uint rows, uint cols ):$/;"	f	class:matrix_
+matrix_	tst/matrix_.h	/^class matrix_ {$/;"	c
+matrix_	tst/matrix_.h	/^matrix_<T>::matrix_ (uint rows, uint cols ):$/;"	f	class:matrix_
+maxIndexDiff	nish2.cpp	/^int maxIndexDiff( int* arr, const int n) {$/;"	f	typeref:typename:int
+mix	page_size.c	/^uint8_t mix(uint64_t t){$/;"	f	typeref:typename:uint8_t
+mo	nis.cpp	/^int mo ( int l[]; , int r[] , int n , int maxx) {$/;"	f	typeref:typename:int
+mutex1	test12.c	/^pthread_mutex_t mutex1 = PTHREAD_MUTEX_INITIALIZER;$/;"	v	typeref:typename:pthread_mutex_t
+mutex2	test12.c	/^pthread_mutex_t mutex2 = PTHREAD_MUTEX_INITIALIZER;$/;"	v	typeref:typename:pthread_mutex_t
+mutex3	test12.c	/^pthread_mutex_t mutex3 = PTHREAD_MUTEX_INITIALIZER;$/;"	v	typeref:typename:pthread_mutex_t
+name	Old/new.cpp	/^  string name;$/;"	m	class:Animal	typeref:typename:string	file:
+name	nis5.cpp	/^    char name[50];$/;"	m	struct:main::Person	typeref:typename:char[50]	file:
+name	test2.cpp	/^  char *  name;$/;"	m	class:entity	typeref:typename:char *	file:
+nm	dat.cpp	/^        std::string nm () const {$/;"	f	class:Paccount	typeref:typename:std::string	file:
+num	pe33.cpp	/^  int num;$/;"	m	struct:return_node_t	typeref:typename:int	file:
+operator +	dat.cpp	/^        Paccount operator+ ( const Paccount& X ) const {$/;"	f	class:Paccount	typeref:typename:Paccount	file:
+operator []	tst/matrix_.cpp	/^T* matrix_<T>::operator [](uint index) {$/;"	f	class:matrix_	typeref:typename:T *
+operator []	tst/matrix_.h	/^T* matrix_<T>::operator [](uint index) {$/;"	f	class:matrix_	typeref:typename:T *
+palindrome	mamn.c	/^int palindrome (  long int num ) {$/;"	f	typeref:typename:int
+printStirng	tst/matrix_.cpp	/^void matrix_<T>::printStirng () {$/;"	f	class:matrix_	typeref:typename:void
+printStirng	tst/matrix_.h	/^void matrix_<T>::printStirng () {$/;"	f	class:matrix_	typeref:typename:void
+print_digits	pe40.cpp	/^void print_digits(long int x) {$/;"	f	typeref:typename:void
+print_l	pe40.cpp	/^void print_l ( int begin, int end , short * arr ) {  $/;"	f	typeref:typename:void
+print_vector	Old/non_crossing_cords_mod.cpp	/^void print_vector ( vector <int> *arr ) {$/;"	f	typeref:typename:void
+printac	dat.cpp	/^void printac ( const Paccount& instance ) {$/;"	f	typeref:typename:void
+printx	dat.cpp	/^void printx ( const Paccount& instance ) {$/;"	f	typeref:typename:void
+pubShub	multiTh.cpp	/^class pubShub { $/;"	c	file:
+radius	rt1.cpp	/^      int width, height, radius;$/;"	m	class:shape	typeref:typename:int	file:
+rawVec	test9.cpp	/^    typedef std::vector < int * >                 rawVec;$/;"	t	function:main	typeref:typename:std::vector<int * >	file:
+return_node_t	pe33.cpp	/^struct return_node_t {$/;"	s	file:
+return_node_t	pe33.cpp	/^typedef struct return_node_t return_node_t;$/;"	t	typeref:struct:return_node_t	file:
+rowDim	tst/matrix_.h	/^  uint rowDim;$/;"	m	class:matrix_	typeref:typename:uint
+salary	nis5.cpp	/^    float salary;$/;"	m	struct:main::Person	typeref:typename:float	file:
+saw	page_size.c	/^uint8_t saw(uint64_t t){$/;"	f	typeref:typename:uint8_t
+set_name	test2.cpp	/^  void set_name (char * nm )  {$/;"	f	class:entity	typeref:typename:void	file:
+setall	Old/new.cpp	/^void Animal::setall(int height, int weight , string name) {$/;"	f	class:Animal	typeref:typename:void
+seth	Old/new.cpp	/^  void seth ( int h ) { height = h; }$/;"	f	class:Animal	typeref:typename:void	file:
+setname	Old/new.cpp	/^  void setname ( string n ) { name = n; }$/;"	f	class:Animal	typeref:typename:void	file:
+setwt	Old/new.cpp	/^  void setwt ( int wt ) { weight = wt; }$/;"	f	class:Animal	typeref:typename:void	file:
+shape	rt1.cpp	/^class shape {$/;"	c	file:
+shared_print	test11.cpp	/^        void shared_print ( std::string id, int value) {$/;"	f	class:LogFile	typeref:typename:void	file:
+shared_print	test12.c	/^void *shared_print( void *arg ) {$/;"	f	typeref:typename:void *
+something	multiTh.cpp	/^       int something;$/;"	m	class:pubShub	typeref:typename:int	file:
+spVec	test9.cpp	/^    typedef std::vector < std::shared_ptr <int> > spVec;\/\/std::unique_ptr < int > > something;$/;"	t	function:main	typeref:typename:std::vector<std::shared_ptr<int>>	file:
+std	pe32_joseph.c	/^using namespace std;$/;"	v	typeref:typename:using namespace
+str2	test8.cpp	/^void str2 (char * str){$/;"	f	typeref:typename:void
+sum	test12.c	/^long long int sum = 0;$/;"	v	typeref:typename:long long int
+t	nish2.cpp	/^  gint t;$/;"	m	struct:x	typeref:typename:gint	file:
+toString	Old/new.cpp	/^void Animal::toString() {$/;"	f	class:Animal	typeref:typename:void
+tool	makefile	/^tool:$/;"	t
+uint	tst/matrix_.h	/^#define uint /;"	d
+unqVec	test9.cpp	/^    typedef std::vector < std::unique_ptr <int> > unqVec;$/;"	t	function:main	typeref:typename:std::vector<std::unique_ptr<int>>	file:
+weight	Old/new.cpp	/^  int weight;$/;"	m	class:Animal	typeref:typename:int	file:
+width	pe32.cpp	/^int width (long int num)$/;"	f	typeref:typename:int
+width	rt1.cpp	/^      int width, height, radius;$/;"	m	class:shape	typeref:typename:int	file:
+wrapper	Old/fnptr.cpp	/^void wrapper( func_ptr_t func ) {$/;"	f	typeref:typename:void
+x	multiTh.cpp	/^        short x;$/;"	m	class:pubShub	typeref:typename:short	file:
+x	nish2.cpp	/^  int x;$/;"	m	struct:x	typeref:typename:int	file:
+x	nish2.cpp	/^struct x {$/;"	s	file:
+x	test13.cpp	/^bool x(T a , U b) {$/;"	f	typeref:typename:bool
+y	multiTh.cpp	/^        double y;$/;"	m	class:pubShub	typeref:typename:double	file:
+~Animal	Old/new.cpp	/^Animal::~Animal() {$/;"	f	class:Animal
