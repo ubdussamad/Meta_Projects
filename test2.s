@@ -1,7 +1,7 @@
 
 #include <asm/unistd.h>
 #include <syscall.h>   /* For SYS_xxx definitions */
-#define SYS_write 0x1
+#define SYSCALL_WRITE $0x1
 	
 	.file	"test2.cpp"
 	.section	.rodata
@@ -15,7 +15,7 @@ _start:
 	movl	$12, %edx
 	movl	$hello, %esi
 	movl	$1, %edi
-	movl	$0x1, %eax
+	movl	SYSCALL_WRITE, %eax
 	syscall
 
 	## exit the program and handle the control to parent
