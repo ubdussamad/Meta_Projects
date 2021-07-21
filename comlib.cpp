@@ -27,6 +27,27 @@ inline T mod ( T x) {
 }
 
 
+template <typename T>
+T genPentagonal (T index) {
+    return ( (index*(3*index - 1)) / 2 );
+}
+template <typename T>
+T genTriangular (T index) {
+    return ( (index*(index + 1)) / 2 );
+}
+template <typename T>
+T genHexagonal (T index) {
+    return index*(2*index - 1);
+}
+
+template <typename T>
+bool isPentagonal (T x) {
+    long double n = (1 + std::sqrt( 24 * x + 1)) /6;
+    return (n - (int) n) == 0;
+}
+
+
+
 
 void bits(float x) {
     std::cout << "Bits for " << x << " are: ";

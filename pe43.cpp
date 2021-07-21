@@ -74,8 +74,6 @@ long double root( long double n){
 template <typename T>
 bool isPentagonal (T x) {
     long double n = (1 + root( 24 * x + 1)) /6;
-
-    // std::cout << n << "  : ";
     return (n - (int) n) == 0;
 }
 
